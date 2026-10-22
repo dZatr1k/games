@@ -1,0 +1,21 @@
+{
+  "disableLoadingLogo": true,
+  "advertisement": {
+    "minimumDelayBetweenInterstitial": 60,
+    "initialInterstitialDelay": 60,
+    "interstitial": {
+      "placements": [{ "id": "album_close" }, { "id": "kiosk_close" }]
+    },
+    "rewarded": {
+      "placements": [{ "id": "reward_double" }, { "id": "reward_luck" }, { "id": "reward_pack" }]
+    }
+  },
+  "device": {
+    "useBuiltInOrientationPopup": false
+  },
+  "platforms": {
+    "yandex": {
+      "useSignedData": false
+    }
+  }
+}
